@@ -1,14 +1,13 @@
 sudo: required
 lenguage: java
-
 jdk:
-- oraclejdk9
+- oraclejdk8
 - openjdk8
 notifications:
   email:
     recipients:
-      - igna695@gmail.com
-    on_success: always
-    on_failure: never
+      - edubsteep@gmail.com
+    on_success: change
+    
 script:
 - mvn clean package
