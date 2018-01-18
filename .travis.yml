@@ -1,0 +1,14 @@
+sudo: required
+lenguage: java
+
+jdk:
+- oraclejdk9
+- openjdk8
+notifications:
+  email:
+    recipients:
+      - igna695@gmail.com
+    on_success: always
+    on_failure: never
+script:
+- mvn clean package
